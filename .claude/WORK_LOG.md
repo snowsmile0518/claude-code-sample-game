@@ -26,6 +26,20 @@
 - memory MCP に WORK_LOG 運用ルールを記録
 - 全プロジェクトのひな型として標準化完了
 
+### 15:45 - GitHubリポジトリへのpush設定
+
+- プロジェクト固有のGit設定を変更（ユーザー名: snowsmile0518、メール: `snowsmile0518@gmail.com`）
+- Personal Access Token (PAT) を生成して認証設定
+- リモートリポジトリを追加: <https://github.com/snowsmile0518/claude-code-sample-game.git>
+- mainブランチをリモートにpush成功（2コミット）
+
+### 16:00 - Git認証方法をCredential Managerに切り替え
+
+- リモートURLから平文PATトークンを削除
+- Git Credential Manager を使用する設定に変更
+- 次回push時にWindows Credential Managerがトークンを安全に保存
+- セキュリティリスクを解消（トークンの平文露出を防止）
+
 ---
 
 <!--
