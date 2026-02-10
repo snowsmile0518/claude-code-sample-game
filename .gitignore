@@ -1,0 +1,76 @@
+# ============================================
+# Unity generated files / folders
+# ============================================
+
+# Unity自動生成のキャッシュ (数GB規模になる)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# MemoryCaptures (メモリプロファイラ出力)
+/[Mm]emoryCaptures/
+
+# Recordings (Unity Recorderの出力)
+/[Rr]ecordings/
+
+# Asset Store のダウンロードキャッシュ
+/[Aa]sset[Ss]tore[Tt]ools/
+
+# ============================================
+# Visual Studio / Rider / IDE files
+# ============================================
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ============================================
+# OS generated files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# Unity3D generated meta files (例外あり)
+# ============================================
+# 注意: .meta ファイル自体は基本的にGitに含める
+# ただし、Library内などの一部はディレクトリごと除外済み
+
+# ============================================
+# Crash reports
+# ============================================
+sysinfo.txt
+crashlytics-build.properties
+
+# ============================================
+# Build outputs
+# ============================================
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Gradle (Android build)
+ExportedObj/
+*.apk
+launchscreen.xib
